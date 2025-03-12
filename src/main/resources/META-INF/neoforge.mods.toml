@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" 
+
+[[mods]] 
+modId="omnia_arcana"
+version="${mod_version}"
+displayName="Omnia Arcana"
+authors="${mod_authors}"
+description='''
+Core mod for the `All The Magic: Arcana` modpack by ATM team
+'''
+displayURL=""
+logoFile=""
+credits=""
+updateJSONURL=""
+
+[[dependencies.omnia_arcana]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.omnia_arcana]]
+    modId="kubejs"
+    type="optional"
+    versionRange="[2101.7.1-build.181,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[mixins]]
+config="omnia_arcana.mixins.json"
