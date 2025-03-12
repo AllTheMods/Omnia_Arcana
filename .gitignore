@@ -26,3 +26,4 @@ run-data
 repo
 /.gitattributes
 /.github/*
+/src/generated/resources/.cache/
