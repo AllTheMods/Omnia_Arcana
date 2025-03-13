@@ -8,7 +8,7 @@ import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 
-import static omnia_arcana.api.OmniaArcanaAPI.OMNIA_ARCANA_MODID;
+import static api.OmniaArcana.OMNIA_ARCANA_MODID;
 
 public class FluidDeferredRegister {
     private final DeferredRegister<FluidType> FLUIDTYPE_INSTANCE;

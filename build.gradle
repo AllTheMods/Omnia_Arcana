@@ -123,7 +123,7 @@ dependencies {
 
 sourceSets.main {
     java {
-        srcDirs = ['src/main/java', 'src/api']
+        srcDirs = ['src/main/java', 'src/api/omnia_arcana']
     }
     resources {
         srcDirs = ["src/generated/resources"]
@@ -150,7 +150,9 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             mod_authors            : mod_authors,
     ]
     inputs.properties replaceProperties
-    expand replaceProperties
+    filesMatching("META-INF/neoforge.mods.toml") {
+        expand replaceProperties
+    }
     from "src/main/resources"
     into "build/generated/sources/modMetadata"
 }

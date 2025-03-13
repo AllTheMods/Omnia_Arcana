@@ -1,10 +1,10 @@
-package omnia_arcana.api;
+package api;
 
 import net.minecraft.resources.ResourceLocation;
 
-public class OmniaArcanaAPI {
+public class OmniaArcana {
     public static final String OMNIA_ARCANA_MODID = "omnia_arcana";
-    public static ResourceLocation reLoc(String path) {
+    public static ResourceLocation prefix(String path) {
         return ResourceLocation.fromNamespaceAndPath(OMNIA_ARCANA_MODID, path);
     }
 }

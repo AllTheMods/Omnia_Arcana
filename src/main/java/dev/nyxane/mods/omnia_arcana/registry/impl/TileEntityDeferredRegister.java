@@ -10,7 +10,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
-import static omnia_arcana.api.OmniaArcanaAPI.OMNIA_ARCANA_MODID;
+import static api.OmniaArcana.OMNIA_ARCANA_MODID;
 
 public class TileEntityDeferredRegister {
     private final DeferredRegister<BlockEntityType<?>> INSTANCE;

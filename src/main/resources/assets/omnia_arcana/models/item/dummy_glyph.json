@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "omnia_arcana:item/dummy_glyph"
+    }
+}
