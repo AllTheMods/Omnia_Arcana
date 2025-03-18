@@ -24,12 +24,18 @@ updateJSONURL=""
     side="BOTH"
 
 [[dependencies.omnia_arcana]]
+    modId="ars_nouveau"
+    type="required"
+    versionRange="[5.5.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.omnia_arcana]]
     modId="kubejs"
     type="optional"
     versionRange="[2101.7.1-build.181,)"
     ordering="NONE"
     side="BOTH"
 
-
 [[mixins]]
-config="omnia_arcana.mixins.json"
+    config="omnia_arcana.mixins.json"

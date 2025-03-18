@@ -14,7 +14,7 @@ import java.util.*;
 public class OAGlyphRegistry {
     public static final List<AbstractSpellPart> REGISTRAR = new ArrayList<>();
     public static final DocAssets.BlitInfo CRAFT_ICON = new DocAssets.BlitInfo(OmniaArcana.prefix("textures/gui/ars_nouveau/crafting.png"), 7, 10);
-    public static final SpellTier CRAFT_TIER = SpellTier.createTier(OmniaArcana.prefix("spell/crafting"),1,() -> CRAFT_ICON);
+    public static final SpellTier CRAFT_TIER = SpellTier.createTier(OmniaArcana.prefix("spell/crafting"),98,() -> CRAFT_ICON);
     public static void init() {
 
         GlyphRegistry.registerSpell(DummyGlyphSpell.INSTANCE);
